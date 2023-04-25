@@ -7,7 +7,7 @@ There might be a circumstance not to enable the "[Remote Write](https://promethe
 
 ## Usage
 ```sh
-% xk6 build --with github.com/martymarron/xk6-output-prometheus-pushgateway@latest
+% xk6 build --with github.com/lucasoares/xk6-output-prometheus-pushgateway@latest
 % K6_PUSHGATEWAY_URL=http://localhost:9091 \
 K6_JOB_NAME=k6_load_testing \
 ./k6 run \
